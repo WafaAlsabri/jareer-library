@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -5,11 +6,276 @@
     margin: 0;
   }
   body{
-    
+    font-size: 15px;
     display: grid;
     grid-template-areas: "Header" "Body" "Footer";
-    
+    font-family: 'Tajawal', sans-serif;
     direction: rtl;}
+/*hidden slider*/
+
+
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.hidsid{display: none;
+  margin: -211em 9em;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*log in */
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn8 {
+  background-color:red;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.btn9{  background-color:#fff;
+  color: #000;
+  padding: 16px 20px;
+margin: 2em;
+ 
+  cursor: pointer;
+ 
+  margin-bottom:10px;
+  opacity: 0.8;}
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+.contact {
+  z-index: 20;
+  display: none;
+   position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+  }
+/*.hide{
+  visibility: visible;
+opacity: 1;}
+a{text-decoration: none;}
+.contact {
+  
+display: none;
+ position: absolute;
+  width: 100%;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.contact:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+
+  background-size: cover;
+  filter: blur(50px);
+  z-index: -1;
+}
+.contact-box {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.left {
+  background: url("xxx.jpg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
+.right {
+  padding: 25px 40px;
+}
+
+h2 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+
+.field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.btn:hover {
+  background-color: #27ae60;
+}
+
+.field:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+.error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+  border-color: #ff3860;
+}
+
+.input-control {
+  display: flex;
+  flex-direction: column;
+}*/
+
+/*.btn {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid rgb(84, 84, 247);
+  background: transparent;
+  color: #000;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}*/
+
+
+
+
+
+
+
+
+
 
 header{grid-area: Header;}
 
@@ -32,7 +298,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  
 }
 /*@keyframes x{
   0%{right: 0;}
@@ -46,7 +312,7 @@ footer {
   max-width: 600px;*/
   width: 1000px;
   height: 400px;
-  margin: 20px;
+  margin: 100px;
   text-align: center;
   border-radius: 20px;
   overflow: hidden;
@@ -162,17 +428,53 @@ height: 3em;
   flex-direction: row;
   justify-content: center;
 }
-.box1{direction: rtl;
-  display: flex;
-  flex-direction: row;
-  border: 1px solid rgb(245, 238, 238);
-  text-align: center;
-  padding: 1em;
-  direction: ltr;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
+.wrapper {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(4, [col] 370px ) ;
+  grid-template-rows: repeat(2, [row] 100px  );
+  background-color: #fff;
+  color: #444;
+  justify-content: center;
 }
+
+.box3 {
+  background-color: rgb(99, 94, 94);
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+
+}
+
+.a {
+ 
+  background-size: cover;
+  grid-column: col ;
+  grid-row: row ;
+  background-image: url();
+}
+.b {
+  grid-column: col 2 ;
+  grid-row: row ;
+}
+.c {
+  grid-column: col 3;
+  grid-row: row ;
+}
+.d {
+  grid-column: col 4 ;
+  grid-row: row ;
+}
+
+
+.e {
+  grid-column: col / span 4;
+  grid-row: row 2;
+}
+
+
 .sertch{display: flex;
 justify-content: center;
 align-items: center;}
@@ -187,6 +489,39 @@ align-items: center;}
   margin-top: -33em;
   margin-left: 4em;
   margin-right: 4em;}
+
+
+
+  .catogrey{
+    width: 95%;
+    margin: auto;
+    margin-top: -61px;
+  }
+  .categorey>h1 {
+    color: darkred;
+}
+  .boxes{ display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;}
+  .card{width: 100px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;}
+    .card img {
+      border-radius: 50%;
+  }
+  
+  .card h2 {
+      color: darkred;
+      font-family: inherit;
+      font-weight: inherit;
+      font-size: inherit;
+  }
+  
 
 /*nav{display: flex;
     align-items: center;
@@ -215,21 +550,25 @@ li{ border: 1px solid #000;}*/
   display: flex;
   flex-direction: column;
 }*/
-.p2{}
-.p3{}
-.p1{}
+
 .bord{display: flex;
 flex-direction: column;
 }
+
+/*الاقسام*/
+
+
+
 footer {
   
-  
+  position: absolute;
     height: 300px;
     color:#A4A4A4;
     background-color: #323333;
     padding: 20px;
     padding-top: 50px;
-    margin-top: 10px;
+
+    margin-top: 4589px;
     direction: ltr;
   }
   .p4{flex-basis: 20%;
@@ -346,4 +685,61 @@ border: none;}
     font-size: 18px;
 }
 .search2:focus{outline: none;}
+
+/*عروض حالية*/
+
+.now {
+  width: 95%;
+  margin: auto;
+  margin-top: 33px;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+
+.now>h1 {
+  color: darkred;
+}
+
+.berd {
+  background-color: #FFF;
+  box-shadow: 0 0 5px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+
+
+.berd .two h2 {
+  color: red;
+}
+
+.berd .two h2 sub {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.berd .three {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.berd .three .origin {
+  background-color: red;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+
+/* Footer Styling Section  */
 
