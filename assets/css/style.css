@@ -11,6 +11,28 @@
     grid-template-areas: "Header" "Body" "Footer";
     font-family: 'Tajawal', sans-serif;
     direction: rtl;}
+
+
+    .container8{width: 100%;
+      position: relative;
+  display: flex;
+justify-content: space-around;
+margin-top: 20vh;
+margin-right: 10px;
+margin-left: 10px;}
+.circle{background-color: rgb(73, 58, 35);
+
+    margin-right: -1em;
+    margin-top: -12em;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /*hidden slider*/
 
 
@@ -20,10 +42,10 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .hidsid{display: none;
-  margin: -211em 9em;
+  margin: -215em 9em;
 }
 
-.slideshow-container {
+.slideshow-container {    margin-top: -4em;
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -37,7 +59,7 @@ img {vertical-align: middle;}
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: #000;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -48,6 +70,7 @@ img {vertical-align: middle;}
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  margin-right: 49em;
   border-radius: 3px 0 0 3px;
 }
 
@@ -79,11 +102,10 @@ img {vertical-align: middle;}
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 25px;
+  width: 25px;
   margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
+background-color: #8C9399;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
@@ -524,11 +546,14 @@ align-items: center;}
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 50px;}
-  .card{width: 100px;
+  .card{
+    
+    height: 100px;
+    width: 100px;
     background-color: #FFF;
     box-shadow: 0 0 10px;
     text-align: center;
-    padding: 10px;
+    padding: 36px;
     margin: 10px;
     border-radius: 5px;}
     .card img {
@@ -540,6 +565,7 @@ align-items: center;}
       font-family: inherit;
       font-weight: inherit;
       font-size: inherit;
+      margin-top: -9em;
   }
   
 

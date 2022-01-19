@@ -1,8 +1,4 @@
-/*var link=document.querySelector('.go');
-var link2=document.querySelector('.contact');
-link.addEventListener('click',function(){
-link2.classList.add('hide');
-});*/
+
 
 function openForm() {
     document.getElementById("myForm").style.display = "block";
