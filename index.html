@@ -15,8 +15,8 @@
 <header>
     <div class="container">
         <div class="box">
-            <a href="#" onclick="openForm()" >سجل الان</a>
-            <a href="#" onclick="openForm2()">ادخل لحسابك او</a>
+            <a href="#" onclick="openForm2()" >سجل الان</a>
+            <a href="#" onclick="openForm()">ادخل لحسابك او</a>
        
             <i class="fas fa-search"></i>
         </div>
@@ -73,22 +73,33 @@
 
     </div>
 
-
+</div>
 
     <!---sin up-->
-    <div class="contact" id="myForm1">
+    <div class="contact2" id="myForm1">
         <form action="" class="form-container"  id="myForm1">
-            <h1>تسجيل الدخول</h1>
+            <h1>انشاء حساب</h1>
         <hr>
             
-            <input type="text" placeholder="البريد الالكتروني او رقم الجوال" name="email" required>
+            <input style="background-color: #E5EAF5;" type="text" placeholder=" او رقم الجوال" name="email" required>
+            <label for="email" style="color: #8C9399;"><b>سوف نرسل لك رمز التحقق عن طريق رسالة نصية</b></label>
+            <button type="submit" class="btn10"> ارسال رمز التحقق</button>
+            <input style="background-color: #E5EAF5;" type="text" placeholder=" الاسم الاول  " name="email" required>
+            <input style="background-color: #E5EAF5;" type="text" placeholder="  اسم العائلة  " name="email" required>
+            <input style="background-color: #E5EAF5;"  type="password" placeholder=" البريد الالكتروني" name="psw" required>
         
-          
-            <input type="password" placeholder="كلمة السر" name="psw" required>
-        
-            <button type="submit" class="btn8">تسجيل الدخول</button>
+            <input style="background-color: #E5EAF5;" type="password" placeholder="  تاكيد البريد الالكتروني" name="psw" required>
+            <input style="background-color: #E5EAF5;" type="password" placeholder="  كلمة السر  " name="psw" required>
+            <label>
+                <input style="background-color: #E5EAF5;" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> اوافق على الشروط والاحكام
+              </label>
+              <br>
+              <label>
+                <input  style="background-color: #E5EAF5;" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">  التسجيل للانضمام الى النشرة البريدية
+              </label>
+            <button type="submit" class="btn10">تسجيل الدخول</button>
             <p>ليس لديك حساب</p>
-            <button type="button" class="btn9" onclick="closeForm()">انشاء حساب جديد</button>
+            <button type="button" class="btn9" onclick="closeForm()">انشاء حساب </button>
           </form>
           <div class="contact" id="myForm">
     
