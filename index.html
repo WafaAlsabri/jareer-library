@@ -107,7 +107,12 @@
     </div>
 
 <div class="sertch">
-<div><button class="btn"><i class="fas fa-search"></i></button></div>
+<div>
+    <button class="btn"><i class="fas fa-search"></i>
+    
+        <h3 id="root"></h3>
+     
+    </button></div>
 
 
 <div class="boxcontainer">
@@ -247,7 +252,7 @@
     <div class="first">
         <div class="berd">
             <div class="one">
-            <a href="#now" onclick="openForm1()"> <img src="assets/images/bag1.jfif" alt="" srcset=""  ></a>>
+       <div onclick="increment()"><img src="assets/images/bag1.jfif" alt="" srcset=""  ></div> >
             </div>
             <div class="two">
                 <h1>كتاب إلكتروني</h1>
@@ -256,7 +261,7 @@
             </div>
             <div class="three">
                 <img src="assets/images/svgexport-13.svg" alt="loading" srcset="">
-                <img class="origin" src="assets/images/svgexport-13.svg" alt="shopbag" srcset="">
+              <a href="#"> <img class="origin" src="assets/images/svgexport-13.svg" alt="shopbag" srcset=""></a> 
                 <img src="assets/images/svgexport-13.svg" alt="star" srcset="">
             </div>
         </div>
@@ -272,7 +277,7 @@
             </div>
             <div class="three">
                 <img src="assets/images/loading.png" alt="loading" srcset="">
-                <img class="origin" src="assets/images/shopbag.png" alt="shopbag" srcset="">
+                <a href="#" onclick="increment"> <img class="origin" src="assets/images/svgexport-13.svg" alt="shopbag" srcset=""></a> 
                 <img src="assets/images/star.png" alt="star" srcset="">
             </div>
         </div>
@@ -288,12 +293,12 @@
             </div>
             <div class="three">
                 <img src="assets/images/loading.png" alt="loading" srcset="">
-                <img class="origin" src="assets/images/shopbag.png" alt="shopbag" srcset="">
+                <a href="#" onclick="increment"> <img class="origin" src="assets/images/svgexport-13.svg" alt="shopbag" srcset=""></a> 
                 <img src="assets/images/star.png" alt="star" srcset="">
             </div>
         </div>
 
-        <div class="berd">
+      <!--- <div class="berd">
             <div class="one">
                 <img src="assets/images/bag1.jfif" alt="" srcset="">
             </div>
@@ -304,7 +309,7 @@
             </div>
             <div class="three">
                 <img src="assets/images/loading.png" alt="loading" srcset="">
-                <img class="origin" src="assets/images/shopbag.png" alt="shopbag" srcset="">
+                <a href="#" onclick="increment"> <img class="origin" src="assets/images/svgexport-13.svg" alt="shopbag" srcset=""></a> 
                 <img src="assets/images/star.png" alt="star" srcset="">
             </div>
         </div>
@@ -824,7 +829,7 @@
         </div>
     </div>
 </section>
-<!--hiddin slider-->
+
 <div class="hidsid" id="hidsid">
 <div class="slideshow-container">
 
@@ -951,9 +956,10 @@
     <img  class="img2" src="assets/images/mada.png"> 
     <img  class="img2" src="assets/images/visa.png"> 
 </div>
-
+<div class="overlay" id="overlay" onclick="openForm()"></div>
 </div>
 </footer>
 <script src="assets/js/p.js"></script>
+--> 
 </body>
 </html>

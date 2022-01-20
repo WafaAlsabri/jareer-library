@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" assets/css/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script
@@ -12,141 +12,141 @@
     <title>Document</title>
 </head>
 <body>
-
-    <div class="container">
-        <div class="box">ادخل لحسابك او سجل الا
-            <i class="fas fa-search"></i>
+    <header>
+        <div class="container">
+            <div class="box">
+                <a href="#" onclick="openForm2()" >سجل الان</a>
+                <a href="#" onclick="openForm()">ادخل لحسابك او</a>
+           
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="box"><a href="cart.html">الرئيسية</a>ا<i class="fas fa-search"></i></div>
+            <div class="box">من نحن<i class="fas fa-search"></i></div>
+            <div class="box">اتصل بنا<i class="fas fa-search"></i></div>
+            <div class="box">المساعدة<i class="fas fa-search"></i></div>
+            <div class="box">سياسة الخصوصية<i class="fas fa-search"></i></div>
+            <div class="box1">اليمن<i class="fas fa-search"></i>
+            <p>YER</p></div>
+            <div class="box">English<i class="fas fa-search"></i></div>
         </div>
-        <div class="box">الرئيسية<i class="fas fa-search"></i></div>
-        <div class="box">من نحن<i class="fas fa-search"></i></div>
-        <div class="box">اتصل بنا<i class="fas fa-search"></i></div>
-        <div class="box">المساعدة<i class="fas fa-search"></i></div>
-        <div class="box">سياسة الخصوصية<i class="fas fa-search"></i></div>
-        <div class="box1">اليمن<i class="fas fa-search"></i>
-        <p>YER</p></div>
-        <div class="box">English<i class="fas fa-search"></i></div>
-    </div>
-
-<div class="sertch">
-<div><button class="btn"><i class="fas fa-search"></i></button></div>
-
-
-<div class="boxcontainer">
-<table class="element">
-
-<tr>
-    <td>
-
-        <input type="text" placeholder="البحث" class="search1">
-    </td>
-
-    <td><a href="#"></a> <i class="fas fa-search"></i></a></td>
-</tr>
-
-</table>
-
-
-</div>
-<div class="img1"><img src="ccc.png"></div>
-
-</div>
-
-
-
-
-
-   <!-- <nav>
-
-<ul>
-
-    <li><a href="#">ادخل لحسابك او سجل الان</a></li>
-    <li><a href="#">الرئيسية</a></li>
-    <li><a href="#">من نحن </a></li>
-    <li><a href="#">اتصل بنا </a></li>
-    <li><a href="#">المساعدة</a></li>
-    <li><a href="#">سياسةالخصوصية</a></li>
-    <li><a href="#">اليمن </a></li>
-    <li><a href="#">English </a></li>
-</ul>
-
-   </nav> -->
-
-
-   <footer>
-    <div class="up">
-        <div class="p4">  <p>عن جرير</p><hr style="background:gray;">
-            <p>من نحن</p>
-            <p>الحوكمةر</p>
-            <p>عن جرير</p>
-            <p>عن جرير</p>  </div>
-        <div class="p4">  <p>روابط سريعة </p><hr style="background:gray;">
-            <p>من نحن</p>
-            <p>الحوكمةر</p>
-            <p>عن جرير</p>
-            <p>عن جرير</p> </div>
-        <div class="p4"> <p>خدمات جرير  </p><hr style="background:gray;">
-            <p> خدمة تقسيم المشتريات</p>
-            <p>خدمة مات بعد البيع</p>
-            <p>عن جرير</p>
-            <p>عن جرير</p>  </div>
-        <div class="p4"> <p> خدمة العملاء</p><hr style="background:gray;">
-            <p> مبيعات الشركة</p>
-            <p>الاسئلة المتكررة</p>
-            <p>دليل التسوق والمطبوعات </p>
-            <p>مواقع المعارض </p>
-            <p> مبيعات الشركة</p>
-            <p>الاسئلة المتكررة</p>
-            <p>دليل التسوق والمطبوعات </p>
-            <p>مواقع المعارض </p> </div>
-        <div>
-          <p style="text-align: center;">انضم الى نشرتنا البريدية </p><hr>
-          <br>
-          <div class="bord">
-            <div class="boxcontainer1">
-                <table class="element1">
-                
-                <tr>
-                    <td>
-                
-                        <input type="text" placeholder="ادخل بريدك الالكتروني" class="search2">
-                    </td>
-                
-                    <td><a href="#"></a> <i class="fas fa-search" style="color: rgb(206, 195, 195);"></i></a></td>
-                </tr>
-                
-                </table>
-                
-                
-                </div>
-<button class="btn2">اشتراك</button>
-          </div>
-<br>
-<br>
-          <p style="text-align: center;">نواصل معنا</p>
-          <hr>
-        </div>
-
-    </div>
-
+   
+        <div class="contact" id="myForm">
+        <form action="" class="form-container"  id="myForm">
+            <h1>تسجيل الدخول</h1>
+        <hr>
+            
+            <input type="text" placeholder="البريد الالكتروني او رقم الجوال" name="email" required>
+        
+          
+            <input type="password" placeholder="كلمة السر" name="psw" required>
+        
+            <button type="submit" class="btn8">تسجيل الدخول</button>
+            <p>ليس لديك حساب</p>
+            <button type="button" class="btn9" onclick="closeForm()">انشاء حساب جديد</button>
+          </form>
+          <div class="contact" id="myForm">
     
-</footer>
-<div class="subfooter">
-<div class="subfooter1">
-
-    <p>سياسة الخصوصية | شروط الخدمة</p>
-    <br>
-    <p>جميع الحقوق محفوظة لدى مكتبةر</p>
-</div>
-<div class="subfooter2">
-
-    <img  class="img2" src="mada.png"> 
-    <img  class="img2" src="visa.png"> 
-    <img  class="img2" src="mada.png"> 
-    <img  class="img2" src="visa.png"> 
-</div>
-
-</div>
-
-
+        </div>
+    
+    </div>
+    
+        <!---sin up-->
+        <div class="contact2" id="myForm1">
+            <form action="" class="form-container"  id="myForm1">
+                <h1>انشاء حساب</h1>
+            <hr>
+                
+                <input style="background-color: #E5EAF5;" type="text" placeholder=" او رقم الجوال" name="email" required>
+                <label for="email" style="color: #8C9399;"><b>سوف نرسل لك رمز التحقق عن طريق رسالة نصية</b></label>
+                <button type="submit" class="btn10"> ارسال رمز التحقق</button>
+                <input style="background-color: #E5EAF5;" type="text" placeholder=" الاسم الاول  " name="email" required>
+                <input style="background-color: #E5EAF5;" type="text" placeholder="  اسم العائلة  " name="email" required>
+                <input style="background-color: #E5EAF5;"  type="password" placeholder=" البريد الالكتروني" name="psw" required>
+            
+                <input style="background-color: #E5EAF5;" type="password" placeholder="  تاكيد البريد الالكتروني" name="psw" required>
+                <input style="background-color: #E5EAF5;" type="password" placeholder="  كلمة السر  " name="psw" required>
+                <label>
+                    <input style="background-color: #E5EAF5;" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> اوافق على الشروط والاحكام
+                  </label>
+                  <br>
+                  <label>
+                    <input  style="background-color: #E5EAF5;" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">  التسجيل للانضمام الى النشرة البريدية
+                  </label>
+                <button type="submit" class="btn10">تسجيل الدخول</button>
+                <p>ليس لديك حساب</p>
+                <button type="button" class="btn9" onclick="closeForm()">انشاء حساب </button>
+              </form>
+              <div class="contact" id="myForm">
+        
+            </div>
+        </div>
+    
+    <div class="sertch">
+    <div><button class="btn"><i class="fas fa-search"></i></button></div>
+    
+    
+    <div class="boxcontainer">
+    <table class="element">
+    
+    <tr>
+        <td>
+    
+            <input type="text" placeholder="البحث" class="search1">
+        </td>
+    
+        <td><a href="#"></a> <i class="fas fa-search"></i></a></td>
+    </tr>
+    
+    </table>
+    
+    
+    </div>
+    <div class="img1"><img src="assets/images/ccc.png"></div>
+    
+    </div>
+    </header>
+    
+    <section class="all-content">
+    <!--slider-->
+    
+    
+    
+    
+    <div class="slider-container">
+        <div class="slider">
+          <div class="slides">
+            <div id="slides__1" class="slide">
+              <span class="slide__text"><img src="assets/images/bag1.jfif"></span>
+              <a class="slide__prev" href="#slides__4" title="Next"></a>
+              <a class="slide__next" href="#slides__2" title="Next"></a>
+            </div>
+            <div id="slides__2" class="slide">
+              <span class="slide__text"><img src="assets/images/bag2.jfif"></span>
+              <a class="slide__prev" href="#slides__1" title="Prev"></a>
+              <a class="slide__next" href="#slides__3" title="Next"></a>
+            </div>
+            <div id="slides__3" class="slide">
+              <span class="slide__text"><img src="assets/images/bag3.jfif"></span>
+              <a class="slide__prev" href="#slides__2" title="Prev"></a>
+              <a class="slide__next" href="#slides__4" title="Next"></a>
+            </div>
+            <div id="slides__4" class="slide">
+              <span class="slide__text"><img src="assets/images/bag2.jfif"></span>
+              <a class="slide__prev" href="#slides__3" title="Prev"></a>
+              <a class="slide__next" href="#slides__1" title="Prev"></a>
+            </div>
+          </div>
+          <div class="slider__nav">
+            <a class="slider__navlink" href="#slides__1"></a>
+            <a class="slider__navlink" href="#slides__2"></a>
+            <a class="slider__navlink" href="#slides__3"></a>
+            <a class="slider__navlink" href="#slides__4"></a>
+          </div>
+        </div>
+      </div>
+      
+      <!--تصفح حسب القسم-->
+     
+    <script src="assets/js/p.js"></script>
 </body>
 </html>

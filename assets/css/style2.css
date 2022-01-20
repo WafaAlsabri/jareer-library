@@ -16,7 +16,9 @@
         display: flex;
 
     }
-    .btn{    background-color: red;
+    .btn{  
+        cursor: pointer;
+        background-color: red;
         padding: 2em 2em;
         border: none;
         height: 1em;
@@ -116,6 +118,13 @@ transition: 1s;}
     #form1{}
     #form2{left: 450px;}
     #form3{left: -450px;}
+
+
+
+    .half{position: relative;
+        background-position: center;
+        background-size: cover;    
+    }
     .container11{
         background-position: center;
         background-size: cover;
@@ -130,6 +139,7 @@ overflow: hidden;
       border-radius: 5px;
       position: relative;
     }
+    
     h3{text-align: center;
   margin-bottom: 40px;
 color: #777;}
