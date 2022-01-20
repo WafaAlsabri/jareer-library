@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    font-size: 15px;
+    display: grid;
+    grid-template-areas: "Header" "Body" "Footer";
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;}
+
+    .container{
+        display: flex;
+
+    }
+    .btn{    background-color: red;
+        padding: 2em 2em;
+        border: none;
+        height: 1em;
+        color: #fff;
+        align-items: center;
+        width: 26em;}
+    .right{
+        height: 351px;
+        margin: 4em 3em;
+        border: 1px solid #000;
+        width: 30%;
+border: 1 solid #000;
+        display: flex;
+        flex-direction: column;
+        
+        padding-bottom: 20em;
+    }
+    .left{
+     
+        margin: 2em 2em;
+        width: 70%;
+     
+        display: flex;
+    flex-direction: column;}
+
+
+    .one{   
+       
+        display: flex;
+        flex-direction: column;
+        border: 1 solid #000;
+       
+        border: 1px solid;
+
+
+        margin: 1em 2em;
+border: 1px solid;}
+.two{
+    
+
+}
+.con2{    margin: 1em 2em;}
+.con1{display: flex;
+    flex-direction: row;
+}
+.con3{display: flex;
+    flex-direction: row;}
+    .subcon31{    margin: 1em 6em;
+        background-color: #FEF9EB}
+    .subcon32{    position: absolute;
+        margin: 1em 58em;}
+.subcon1{    margin: 1em 5em;}
+.subcon2{position: absolute;
+    margin: 1em 56em;   
+  }
+.subcon3{background-color: blue;
+    height: 25px;
+    width: 333px;
+    margin: 2em 1em;}
+.subcon4{    position: absolute;
+    margin: -4em 66em;}
+    .second{    position: absolute;
+      
+    margin: 13em 1em;
+    }
+    .subfirst1{    margin: 1em 2em;
+        position: absolute;}
+    .subfirst2{    margin: 1em 23em;
+        position: absolute;}
+    .first{display: flex;
+    flex-direction: row;}
+
+
+    
+    #progress{
+        position: absolute;
+  height: 100%;
+width: 120px;
+background: cornflowerblue;
+transition: 1s;}
+
+#progress::after{
+
+  content: '';
+  height: 0;
+  width: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  right: -20px;
+  top: 0;
+  border-left: 20px solid #ffad06;
+}
+
+
+
+    #form1{}
+    #form2{left: 450px;}
+    #form3{left: -450px;}
+    .container11{
+        background-position: center;
+        background-size: cover;
+      display:none;
+overflow: hidden;
+      width: 360px;
+      height: 400px;
+      /*margin: 8% auto;*/
+      margin: 29em -35em;
+      
+      background: #fff;
+      border-radius: 5px;
+      position: relative;
+    }
+    h3{text-align: center;
+  margin-bottom: 40px;
+color: #777;}
+.container11 form{width: 280px;
+position: absolute;
+top: 100px;
+left: 40px;
+transition: 0.5s;
+}
+form input{width: 100%;
+padding: 10px 5px;
+border: 0;
+border-bottom: 1px solid #999;
+outline: none;
+background: transparent;}
+form button{
+  width: 110px;
+height: 35px;
+
+cursor: pointer;
+color: #fff;
+border: 0;
+outline: none;
+background-color: tomato;}
+.step-row{
+
+  width: 360px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 -1px 5px -1px #000;
+  position: relative;
+}
+.step-col{width: 120px;
+text-align: center;
+color: #333;
+position: relative;}

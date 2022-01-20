@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <title>Document</title>
+    <script
+    src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    data-search-pseudo-elements
+  ></script>
+</head>
+<body>
+    <div class="container">
+<div class="left">
+<span>السلة 3منتجات</span>
+
+<div class="one">
+<div class="con1">
+    <div class="subcon1">
+        <h1>البداية والنهاية الجزء الاول كتاب الكتروني</h1>
+        <p> منتج قابل للخصم لحاملي بطاقة مكتبة جرير </p>
+    </div>
+    <div class="subcon2"><h1 style="color: red;">3.99</h1></div>
+   
+</div>
+<div class="con3"><div class="subcon31" ><p>ملاحظة هذا المنتج  رقمي وسيتم توصيله خلال البريد الالكتروني</p>
+    <a href="#" style="text-decoration: none;">؟كيفية الحصول على المنتج</a></div>
+<div class="subcon32"><button>1</button></div></div>
+<hr>
+<div class="con2"><p>احذف هنا</p></div>
+
+</div>
+
+<div class="one">
+    <div class="con1">
+        <div class="subcon1">
+            <h1>فن الامبالاه (لاكتاب الكتروني</h1>
+            <p> منتج قابل للخصم لحاملي بطاقة مكتبة جرير </p>
+        </div>
+        <div class="subcon2"><h1 style="color: red;">3.99</h1></div>
+       
+    </div>
+    <div class="con3"><div class="subcon31" ><p>ملاحظة هذا المنتج  رقمي وسيتم توصيله خلال البريد الالكتروني</p>
+        <a href="#" style="text-decoration: none;">؟كيفية الحصول على المنتج</a></div>
+    <div class="subcon32"><button>1</button></div></div>
+    <hr>
+    <div class="con2"><p>احذف هنا</p></div>
+    
+    </div>
+
+    <div class="one">
+        <div class="con1">
+            <div class="subcon1">
+                <h1>البداية والنهاية الجزء الاول كتاب الكتروني</h1>
+                <p> منتج قابل للخصم لحاملي بطاقة مكتبة جرير </p>
+                
+            </div>
+            <div class="subcon2"><h1 style="color: red;">3.99</h1></div>
+           
+        </div>
+        <div class="con3"><div class="subcon31" ><p>ملاحظة هذا المنتج  رقمي وسيتم توصيله خلال البريد الالكتروني</p>
+        
+        <a href="#" style="text-decoration: none;">؟كيفية الحصول على المنتج</a></div>
+        <div class="subcon32"><button>1</button></div></div>
+        <hr>
+        <div class="con2"><p>احذف هنا</p></div>
+        
+        </div>
+    
+
+
+</div>
+
+
+
+<div class="right">
+<div class="first">
+<div class="subfirst1"><p>المجموع</p>
+<p>تكاليف الشحن</p>
+<p>شامل الضريبةالمجموع الكلي </p></div>
+<div class="subfirst2">
+    <p>98.97</p>
+    <p>مجاني </p>
+    <p>98.97ة</p>
+
+</div>
+
+
+</div>
+<div class="second">
+    <p>بالضغط على انهاء التسوق  فانت توافق  على الشروط والاحكام وسياسة الخصوصية</p>
+    <br>
+    <button onclick="openForm()" class="btn">انهاء التسوق</button>
+</div>
+</div>
+
+<div class="container11" id="myform">
+    <form id="form1">
+    <h3>user information</h3>
+    <input type="text" placeholder="user name"> 
+    <input type="text" placeholder="user name"> 
+    <input type="text" placeholder="user name"> 
+    <div class="btn-box"><button id="next1" type="button">submit</button></div>
+    
+    </form>
+    <form id="form2">
+        <h3>payment information</h3>
+        <input type="text" placeholder="user name"> 
+        <input type="text" placeholder="user name"> 
+        <input type="text" placeholder="user name"> 
+        <div class="btn-box">
+            <button id="back1" type="button">pre</button>
+            <button id="next2" type="submit">Next</button>   
+        </div>
+        
+        </form>
+    
+        <form id="form3">
+            <h3>Confirm the operation</h3>
+            <input type="text" placeholder="user name"> 
+            <input type="text" placeholder="user name"> 
+            <input type="text" placeholder="user name"> 
+            <div class="btn-box"><button id="back2" type="button">pre</button>
+                <button type="submit">Next</button>   
+            </div>
+            
+            </form>
+    <div class="step-row">
+    
+    <div id="progress"></div>
+    
+       <div class="step-col">  <small>step1</small></div>
+       <div class="step-col">  <small>step2</small></div>
+       <div class="step-col">  <small>step3</small></div>
+    
+    
+    </div>
+        
+     </div>   
+    </div>
+
+
+
+    
+        
+
+
+
+
+
+
+<script>
+
+
+
+
+function openForm() {
+    document.getElementById("myform").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myform").style.display = "none";
+  }
+
+  /*stepper*/
+
+  var form1=document.getElementById("form1");
+var form2=document.getElementById("form2");
+var form3=document.getElementById("form3");
+
+var next1=document.getElementById("next1");
+var next2=document.getElementById("next2");
+var back1=document.getElementById("back1");
+var back2=document.getElementById("back2");
+var progress=document.getElementById("progress");
+
+next1.onclick=function(){
+
+    form1.style.left="-450px";
+    form2.style.left="40px";
+    progress.style.width="240px";
+    
+}
+back1.onclick=function(){
+
+    form1.style.left="40px";
+    form2.style.left="450px";
+    progress.style.width="120px";
+}
+
+next2.onclick=function(){
+
+form2.style.left="-450px";
+form3.style.left="40px";
+progress.style.width="360px";
+}
+
+back2.onclick=function(){
+
+form2.style.left="40px";
+form3.style.left="450px";
+progress.style.width="240px";
+
+}
+
+</script>
+    
+</body>
+</html>
