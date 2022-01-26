@@ -48,9 +48,8 @@ margin-top: 20vh;
 margin-right: 10px;
 margin-left: 10px;}
 .circle,.circle2,.circle3,.circle4,.circle5,.circle6,.circle7{
-
-    margin-right: -1em;
-    margin-top: -11em;
+  margin-right: 2em;
+  margin-top: -12em;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -510,6 +509,7 @@ height: 3em;
 }
 
 .wrapper {
+  direction: ltr;
   display: grid;
   grid-gap: 1px;
   grid-template-columns: repeat(4, [col] 370px ) ;
@@ -575,6 +575,7 @@ height: 3em;
 
 
   .catogrey{
+    direction: ltr;
     width: 95%;
     margin: auto;
     margin-top: 17px;
@@ -710,13 +711,13 @@ margin: 2.5em -1em;
   margin: .2em;
 width: 80px;}
 
-.sertch{direction: ltr;}
+.sertch{direction: rtl;}
 .boxcontainer{    border-radius: 50px;
   border: 1px solid #000;
   height: 42px;
   width: 745px;
   padding: 0px 10px;
-  direction: rtl;
+  direction: ltr;
   margin-top: -1em;
   /* margin-top: 5em; */
   margin-left: 0em;
@@ -747,7 +748,7 @@ height: 100%;}
   margin-top: 5em;
  
   margin-left: 2em;
-  direction: rtl;
+  direction: ltr;
   margin-left: 3em;
   MARGIN-TOP: 1em;}
 .element1{width: 100%;
@@ -848,6 +849,7 @@ ul {
   flex-direction: row-reverse;
   border: 1px #ccc solid;
   margin: 0;
+  direction: ltr;
 }
 .links li {
   border-right: 1px solid #ccc;
@@ -873,7 +875,7 @@ ul {
 
 /*عروض*/
 
-.current-offers {
+.current-offers {    direction: ltr;
 }
 .current-offers .head {
   display: flex;
@@ -966,6 +968,7 @@ footer ul {
   width: 17%;
 }
 footer .upper-part {
+  direction: ltr;
   position: absolute;
     width: 100%;
    bottom: -273em;
@@ -1041,10 +1044,11 @@ footer .call-us {
   color: white;
 }
 footer .lower-part {
+  direction: rtl;
   position: absolute;
  bottom: -325em;
   width: 100%;
-  direction: ltr;
+ 
   font-size: 0.8rem;
   padding: 15px 35px 30px 0;
   padding-left: 35px;
@@ -1410,6 +1414,8 @@ p.login img {
 }
 .w{position: relative;}
 
+
+
 @media screen and (max-width: 800px) {
   .current-offers .offers {
     display: flex;
@@ -1435,6 +1441,7 @@ p.login img {
   border: 1px #ccc solid;
   margin: 0;
   width: 30em;
+  direction: ltr;
 }
 
 
@@ -1448,7 +1455,7 @@ p.login img {
     display: grid;
     grid-template-areas: "Header" "Body" "Footer";
     font-family: 'Tajawal', sans-serif;
-    direction: rtl;}
+    direction: ltr;}
 
    header {
       grid-area:Header;
@@ -1506,6 +1513,7 @@ p.login img {
 }
 
 .wrapper {
+  direction: ltr;
   display: grid;
   grid-gap:10px;
   grid-template-columns: repeat(1, [col] 370px );
