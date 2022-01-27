@@ -71,6 +71,12 @@ border: 1px solid;}
     
 
 }
+.cc{display: flex;
+flex-direction: row;
+direction: rtl;
+
+margin: 1em -20em;
+gap: 32px;}
 
 .flxe{display: flex;
   
@@ -82,7 +88,7 @@ flex-direction: row;}
   /* margin-inline-end: 8px; */
   height: 12px;
   /* margin-top: 0em; */
-  top: 234px;
+  top: 250px;
   right: 72px;
 }
 .price {
