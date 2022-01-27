@@ -32,7 +32,19 @@
     width: 100%;}
 
 
-    /* ------------------- header -------------------- */
+   
+  
+   
+  
+    /* When the input field gets focus,
+         change its width to 100% */
+   
+ 
+  
+
+    /*header*/
+
+
 .links {
     display: flex;
     justify-content: space-between;
@@ -55,15 +67,23 @@
     width: 20px;
     padding: 0 3px;
   }
-  @media (min-width: 940px) and (max-width: 1140px) {
-    .links a {
-      font-size: 11px;
-    }
-    .links object {
-      padding: 0 5px;
-    }
-  }
-
+ .subtwo{
+  margin: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+ .s1{background-color: red;
+width: 1em;
+border: 1px solid #000;}
+ .s2{    position: relative;
+  background-color: #7a7d85;
+  width: 22em;
+  height: 1em;
+  bottom: -0.3em;}
+ .s3{width: 1em;
+   background-color: red;
+  border: 1px solid #000;}
   
   footer {
     color: #a3a3a3;
@@ -731,12 +751,13 @@ color: black;}
   font-weight: bold;
   font-size: 1.5rem;
   position: relative;
-    right: 27em;
+  right: 6em;
+  font-size: 1em;
 }
 .current-offers .head select {
 
   position: relative;
-    right: -8em;
+  right: -9em;
 }
 .current-offers a {
   color: #0052cc;
@@ -777,6 +798,13 @@ color: black;}
   color: #aaa;
   height: 2.5rem;
 }
+.price1 {    position: relative;
+  right: 16em;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  top: 0em;}
 .current-offers .price {
   color: red;
   display: flex;
@@ -904,7 +932,7 @@ footer {
 footer .upper-part {
   position: absolute;
   width: 100%;
-  margin:-740em 0em;
+  bottom: 659em;
   background-color: #333;
   /* padding: 21px 20px; */
   display: flex;
@@ -916,7 +944,7 @@ footer .lower-part {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -750em;
+  bottom: 742em;
  
 }
 

@@ -19,6 +19,7 @@ showDialog.addEventListener("click", function (e) {
 hideDialog.addEventListener("click", function () {
   overlay.classList.add("hide");
   loginDialog.classList.add("hide");
+  
 });
 
 
@@ -34,6 +35,9 @@ hideDialog.addEventListener("click", function () {
 hideSignUpDialog.addEventListener("click", function () {
   signUpDialog.classList.add("hide");
   overlay.classList.add("hide");
+  half.classList.add("hide");
+  hidsid.classList.add("hide");
+
 });
 createNewAccout.addEventListener("click", function () {
   overlay.classList.remove("hide");
@@ -195,3 +199,41 @@ styles.setAttribute('href','assets/css/style - Copy.css')
     styles.setAttribute('href','assets/css/style.css');
   }
  }*/
+
+ const set=document.getElementById("lang");
+ set.addEventListener("change",changeOpt);
+ function changeOpt(){
+
+  let opt=set.options[set.slideIndex];
+  document.getElementById("lang1").value=opt.value;
+  document.getElementById("lang2").value=opt.text;
+ }
+
+
+ 
+// code of sertch
+function search_animal() {
+  let input = document.getElementById('searchbar').value
+  input=input.toLowerCase();
+  let x = document.getElementsByClassName('animals');
+    
+  for (i = 0; i < x.length; i++) { 
+      if (!x[i].innerHTML.toLowerCase().includes(input)) {
+          x[i].style.display="none";
+      }
+      else {
+          x[i].style.display="list-item";                 
+      }
+  }
+}
+
+/**code of slider */
+var counter = 1;
+setInterval(function(){
+  document.getElementById('radio' + counter).checked = true;
+  counter++;
+  if(counter > 4){
+    counter = 1;
+  }
+}, 5000);
+
